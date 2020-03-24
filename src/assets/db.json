@@ -1,0 +1,82 @@
+{
+  "employee": [
+    {
+      "id": 2,
+      "firstName": "Ravi",
+      "lastName": "Varma",
+      "address": "Pune",
+      "gender": "M",
+      "role":"employee"
+    },
+    {
+      "id": 3,
+      "firstName": "Ram",
+      "lastName": "Jadhav",
+      "address": "Mumbai",
+      "gender": "M",
+      "role":"employee"
+    },
+    {
+      "id": 1,
+      "firstName": "Rohit",
+      "lastName": "Jadhav",
+      "address": "Mumbai",
+      "gender": "M",
+      "role":"employee"
+    }
+  ],
+  "manager": [
+    {
+      "id": 2,
+      "firstName": "Gopal",
+      "lastName": "Varma",
+      "address": "Pune",
+      "gender": "M",
+      "role":"manager"
+    },
+    {
+      "id": 3,
+      "firstName": "Geeta",
+      "lastName": "Jadhav",
+      "address": "Mumbai",
+      "gender": "M",
+      "role":"manager"
+    }
+  ],
+  "user": [
+    {
+      "id": 2,
+      "firstName": "Akshay",
+      "lastName": "Varma",
+      "address": "Pune",
+      "gender": "M",
+      "role":"user"
+    },
+    {
+      "id": 3,
+      "firstName": "Adi",
+      "lastName": "Jadhav",
+      "address": "Mumbai",
+      "gender": "M",
+      "role":"user"
+    }
+  ],
+  "customer": [
+    {
+      "id": 2,
+      "firstName": "Sameer",
+      "lastName": "Varma",
+      "address": "Pune",
+      "gender": "M",
+      "role":"customer"
+    },
+    {
+      "id": 3,
+      "firstName": "Sanjay",
+      "lastName": "Mane",
+      "address": "Mumbai",
+      "gender": "M",
+      "role":"customer"
+    }
+  ]
+}

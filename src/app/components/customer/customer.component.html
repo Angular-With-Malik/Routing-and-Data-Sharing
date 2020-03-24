@@ -1,0 +1,10 @@
+<div *ngIf="showCurrentCustomer"> 
+    {{currentCustomer.firstName}}
+  - {{currentCustomer.lastName}}
+  - {{currentCustomer.role}}
+ </div>
+ 
+  <br>
+
+<app-grid [records]="allCustomer"
+    (currentRecordEvent)="getCurrentCustomer($event)"></app-grid>

@@ -1,0 +1,10 @@
+<div *ngIf="showCurrentManager"> 
+    {{currentManager.firstName}}
+  - {{currentManager.lastName}}
+  - {{currentManager.role}}
+ </div>
+ 
+  <br>
+
+<app-grid [records]="allManager"
+    (currentRecordEvent)="getCurrentManager($event)"></app-grid>

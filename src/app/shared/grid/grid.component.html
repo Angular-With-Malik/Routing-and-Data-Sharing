@@ -1,0 +1,13 @@
+<table class="table table-hover">
+  <tr *ngFor="let record of records">
+      <td>{{record.firstName}}</td>
+      <td>{{record.lastName}}</td>
+      <td>{{record.address}}</td>
+      <td>{{record.role}}</td>
+      <td>
+        <a (click)="sendCurrentRecord(record)" style="cursor: pointer">
+          <i class="fa fa-share-square"></i>
+        </a>
+      </td>
+  </tr>
+</table>

@@ -1,0 +1,10 @@
+<div class="m-4">
+    <ul class="nav nav-tabs rounded">
+        <li class="nav-item" *ngFor="let menu of allMenu">
+            <a class="nav-link" [routerLink]="menu.key">{{menu.label}}</a>
+        </li>
+    </ul>
+
+    <br>
+    <router-outlet></router-outlet>
+</div>

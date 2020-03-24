@@ -1,0 +1,11 @@
+<div *ngIf="showCurrentEmployee"> 
+   {{currentEmployee.firstName}}
+ - {{currentEmployee.lastName}}
+ - {{currentEmployee.role}}
+</div>
+
+ <br>
+
+<app-grid [records]="allEmployee" 
+    (currentRecordEvent)="getCurrentEmployee($event)"></app-grid>
+    

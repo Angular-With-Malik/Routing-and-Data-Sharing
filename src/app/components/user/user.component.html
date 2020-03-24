@@ -1,0 +1,10 @@
+<div *ngIf="showCurrentUser"> 
+    {{currentUser.firstName}}
+  - {{currentUser.lastName}}
+  - {{currentUser.role}}
+ </div>
+ 
+  <br>
+
+<app-grid [records]="allUser"
+    (currentRecordEvent)="getCurrentUser($event)"></app-grid>
